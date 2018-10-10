@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>淘宝用户注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../表单验证/css/style.css" />
+    <script src="../表单验证/js/script.js"></script>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for=""><span class="title">会员名：</span><input type="text" class="text"></label>
+            <p class="msg"><i class="ati"></i>5-25个字符，1个汉字为两个字符，推荐使用中文会员名</p>
+        </div>
+        <div>
+            <label for=""><span></span><b id="count">0个字符</b></label>
+        </div>
+        <div>
+            <label for=""><span class="title">登录密码：</span><input type="text" class="text"></label>
+            <p class="msg"><i class="ati"></i></p>
+        </div>
+        <div id="tips">
+            <label for=""><span></span><em class="active">弱</em><em>中</em><em>强</em></label>
+        </div>
+        <div class="margin">
+            <label for=""><span class="title">确认密码：</span><input type="text" class="text" disabled="false"></label>
+            <p class="msg"><i class="ati"></i>请再输入一次</p>
+        </div>
+        <div class="margin">
+            <label for=""><span class="title">验证码：</span><input type="text" class="text checkimg"></label><img src="../表单验证/images/1.png"><a href="javascript:;"
+                class="changeImg" title="重新获取验证码"></a></div>
+        <div class="margin">
+            <input type="submit" id="submitBtn" class="submitBtn btn" value="同意协议并注册">
+        </div>
+    </form>
+</body>
+
+</html>
