@@ -1,0 +1,91 @@
+form{
+    width: 600px;
+    margin: 100px auto;
+}
+input{
+    width: 160px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    font-family: "微软雅黑"；
+}
+.title{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+p{
+    display: none;
+    font-size: 12px;
+    color: gray;
+    width: 300px;
+    float: right;
+    line-height: 28px;
+    vertical-align: top;
+    margin: 2px 30px 0 0;
+}
+#count{
+    padding-left: 80px;
+    font-size: 12px;
+    color: gray;
+    line-height: 28px;
+    visibility: hidden;
+}
+em{
+    display: inline-block;
+    width: 54px;
+    height: 20px;
+    background-color: rgb(255, 204, 157);
+    margin-right: 2px;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+    height: 14px;
+    line-height: 14px;
+    color: white;
+}
+.active{
+    background-color: rgb(255, 95, 2);
+}
+#tips{
+    padding-left: 82px;
+}
+img{
+    height: 30px;
+    vertical-align: middle;
+}
+.checkimg{
+    width: 100px;
+}
+#submitBtn{
+    border: 1px solid rgb(255, 95, 2);
+    width: 166px;
+    height: 30px;
+    background-color: rgb(255, 95, 2);
+    color: white;
+    margin-left: 80px;
+}
+.margin{
+    margin-top: 20px;
+}
+.err{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/no.jpg) no-repeat center center ;
+    vertical-align: middle;
+}
+.ati{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/ati.png) no-repeat center center ;
+    vertical-align: middle;
+}
+.ok{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/ok.png) no-repeat center center ;
+    vertical-align: middle;
+}
