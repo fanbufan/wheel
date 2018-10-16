@@ -1,0 +1,98 @@
+body{
+    background: url(../images/baidu_demo.png) no-repeat center top;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+.login_btn{
+    text-align: right;
+}
+.login_btn a{
+    color: blue;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.mask{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+}
+.ui_dialog{
+    display: none;
+    width: 380px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 9000;
+    border: 1px solid #D5D5D5;
+    top: 0;
+    left: 0;
+}
+.ui_dialog_title{
+    height: 48px;
+    line-height: 48px;
+    background-color: #f5f5f5;
+    text-indent: 25px;
+    cursor: move;
+    font-size: 16px;
+    color: #535353;
+    border-bottom: 1px solid #efefef;
+}
+.ui_dialog_title a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/close_def.png) no-repeat center center;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.ui_dialog_title a:hover{
+    background: url(../images/close_hov.png) no-repeat center center;
+}
+.ui_dialog_content{
+    padding: 15px 20px;
+}
+.ui_dialog_lh40{
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+.ui_dialog_pt15{
+    padding-top: 15px;
+}
+.ui_dialog_input{
+    width: 100%;
+    border: 1px solid #d5d5d5;
+    color: #c1c1c1;
+    font-size: 16px;
+    height: 40px;
+    text-indent: 25px;
+}
+.ui_dialog_input_username{
+    background: url(../images/input_username.png) no-repeat 2px;
+}
+.ui_dialog_input_password{
+    background: url(../images/input_password.png) no-repeat 2px;
+}
+.ui_dialog_submit a{
+    font-size: 16px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background: #3b7ae3;
+}
+.ui_dialog_submit a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #305ba5;
+}
