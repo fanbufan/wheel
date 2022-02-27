@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.layer {
+    width: 400px;
+    min-width: 400px;
+    margin: 0 auto;
+}

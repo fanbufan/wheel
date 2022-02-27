@@ -1,0 +1,41 @@
+.title-cover {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(82, 151, 255);
+}
+
+.contain-cover {
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.auto-read {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    margin-left: 80px;
+}
+
+.read-link {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.active {
+    background-color: green;
+}

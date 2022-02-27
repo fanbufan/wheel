@@ -1,0 +1,412 @@
+body, button, input, select, textarea {
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+strong {
+  font-weight: normal;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #999;
+}
+
+/* 
+ * 评论提交弹框
+ */
+.comment-edit-bd {
+  display: none;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+.mask .comment-wrap {
+  position: absolute;
+  width: 715px;
+  height: 458px;
+  top: 50%;
+  left: 50%;
+  padding: 0 20px;
+  margin-left: -358px;
+  margin-top: -229px;
+  border-top: 4px solid #23b8ff;
+  background-color: #fff;
+}
+
+.mask .comment-wrap .hd {
+  margin-top: 15px;
+  line-height: 20px;
+  color: #999;
+  font-size: 14px;
+}
+
+.mask .comment-wrap .fa-times {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 18px;
+  color: #999;
+}
+
+.mask .comment-wrap .tt {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #424242;
+}
+
+.mask .comment-wrap .comment-star {
+  margin: 35px 0 0 100px;
+  height: 25px;
+}
+
+.mask .comment-wrap .comment-star .fa-star {
+  width: 26px;
+  height: 25px;
+  font-size: 23px;
+  vertical-align: bottom;
+  margin-right: 24px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.mask .comment-wrap .comment-star .fa-star.active {
+  color: orange;
+}
+
+.mask .comment-wrap .comment-star .star-label {
+  color: #999;
+  font-size: 14px;
+}
+
+.mask .comment-wrap .edit-filed-text-bd {
+  width: 534px;
+  margin: 50px auto 0;
+  position: relative;
+}
+
+.mask .comment-wrap .edit-txt-bd {
+  border: 1px solid #dedede;
+}
+
+.mask .comment-wrap .edit-txt-bd .edit-txt {
+  width: 100%;
+  height: 109px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  padding: 10px 12px 0;
+  border: 0;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+  overflow: auto;
+}
+
+.mask .comment-wrap .edit-txt-bd .text-tip {
+  box-sizing: border-box;
+  padding-right: 12px;
+  line-height: 20px;
+  text-align: right;
+  font-size: 12px;
+}
+
+.mask .comment-wrap .edit-txt-bd .text-tip .txt-count {
+  color: red;
+}
+
+.mask .comment-wrap .comment-desc {
+  margin-top: 7px;
+  text-align: right;
+  font-size: 12px;
+  line-height: 16px;
+  color: #999;
+}
+
+.mask .comment-wrap .submit-btn {
+  float: right;
+  width: 120px;
+  height: 40px;
+  margin-top: 22px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 28px;
+  color: #fff;
+  background-color: #23b8ff;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.mask .comment-wrap .submit-btn.disabled {
+  opacity: 0.5;
+}
+
+/* 
+ * 评论列表
+ */
+
+.comment-bd {
+  width: 800px;
+  min-height: 600px;
+  padding: 20px;
+  margin: 100px auto;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.comment-bd .hd {
+  height: 70px;
+  position: relative;
+}
+
+.comment-bd .hd .comment-btn {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #23b8ff;
+}
+
+.comment-bd .score-bd {
+  height: 70px;
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.comment-bd .score-bd .comment-statistics {
+  float: left;
+  width: 140px;
+  height: 50px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+.comment-bd .score-bd .comment-statistics .statistics-num {
+  height: 28px;
+  line-height: 28px;
+  font-size: 28px;
+  color: red;
+}
+
+.comment-bd .score-bd .comment-statistics p {
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.comment-bd .score-bd .radio-tabs {
+  float: left;
+  padding-left: 20px;
+}
+
+.comment-bd .score-bd .radio-tabs .tab-radio {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 30px;
+}
+
+.comment-bd .score-bd .radio-tabs .tab-radio .radio-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('../img/icon.png') no-repeat 0 0/cover;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+.comment-bd .score-bd .radio-tabs .tab-radio.cur .radio-icon {
+  background-position: 0 -40px;
+}
+
+.comment-bd .score-bd .radio-tabs .tab-radio span {
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+
+
+/* 评论列表 */
+.comment-bd .comment-item {
+  position: relative;
+  width: 760px;
+  padding: 20px 20px 20px 100px;
+  border-bottom: 1px solid #ddd;
+}
+
+.comment-bd .comment-item:last-child {
+  border-bottom: 0px;
+}
+
+.comment-bd .comment-item .item-left {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100px;
+  text-align: center;
+}
+
+.comment-bd .comment-item .item-left .user-avatar {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.comment-bd .comment-item .item-left .user-name {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.comment-bd .comment-item .item-right .fa-star {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #cdcdcd;
+}
+
+.comment-bd .comment-item .item-right .fa-star.active {
+  color: #F4B43F;
+}
+
+.comment-bd .comment-item .comment-content {
+  height: 32px;
+  line-height: 21px;
+  font-size: 14px;
+  color: #333;
+  word-wrap: break-word;
+}
+
+.comment-bd .comment-item .comment-uptime {
+  color: #999;
+  font-size: 14px;
+}
+
+.comment-bd .comment-item .add-comment-item {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed #ccc;
+}
+
+.comment-bd .comment-msg {
+  height: 36px;
+  margin: 170px 0;
+  text-align: center;
+}
+
+.comment-bd .comment-msg .fa-warning {
+  color: #D86E3F;
+  font-size: 24px;
+}
+
+.comment-bd .comment-msg .msg-txt {
+  display: inline;
+  font-size: 18px;
+  color: #999;
+  vertical-align: 3px;
+  margin-left: 8px;
+}
+
+.comment-loading {
+  display: none;
+  position: fixed;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+  color: #666;
+}
+
+.page-btn-wrap {
+  height: 40px;
+}
+
+.page-btn-wrap .page-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-btn-wrap .page-btn {
+  display: inline-block;
+  width: 64px;
+  height: 38px;
+  margin: 0 3px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+}
+
+.page-btn-wrap a.page-btn:hover {
+  background-color: #efefef;
+}
+
+.page-btn-wrap .page-btn-cur {
+  border: 1px solid #23b8ff;
+  background-color: #23b8ff;
+  color: #fff;
+}
+
+.page-btn-wrap .dir-btn {
+  display: inline-block;
+  width: 78px;
+  height: 38px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  line-height: 40px;
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+}
+
+.page-btn-wrap .dir-btn.disabled {
+  background-color: #dadada;
+  border: 1px solid #dadada;
+  color: #c9c9c9;
+}
+
+.page-btn-wrap .dir-btn .fa {
+  font-size: 23px;
+}
+
+.page-btn-wrap .points {
+  font-size: 16px;
+  color: #666;
+}
+
+.page-btn-wrap .dir-btn.prev-btn {
+  margin-right: 3px;
+}
+
+.page-btn-wrap .dir-btn.next-btn {
+  margin-left: 3px;
+}
+
+.page-btn-wrap a.dir-btn:hover {
+  background-color: #efefef;
+}

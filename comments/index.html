@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Comments</title>
+</head>
+
+<body>
+  <section class="comment-edit-bd J_commentEditBoard">
+    <div class="mask">
+      <div class="comment-wrap">
+        <h3 class="hd">课程评价 - <strong>前端开发之JavaScript深度指南【JS++前端】</strong></h3>
+        <a href="javascript:;" class="fa fa-times J_closeBtn"></a>
+        <p class="tt">您觉得课程怎么样</p>
+        <form>
+          <div class="comment-star J_stars">
+            <i class="fa fa-star active" data-count="1" data-title="差评！课程太差了，我要吐槽！"></i>
+            <i class="fa fa-star active" data-count="2" data-title="勉强中评！课程不满意"></i>
+            <i class="fa fa-star active" data-count="3" data-title="中评！课程一般"></i>
+            <i class="fa fa-star active" data-count="4" data-title="好评！课程还不错，继续保持！"></i>
+            <i class="fa fa-star active" data-count="5" data-title="五星好评！课程非常棒，点赞！"></i>
+            <span class="star-label J_starTip">五星好评！课程非常棒，点赞！</span>
+          </div>
+          <div class="edit-filed-text-bd">
+            <div class="edit-txt-bd">
+              <textarea class="edit-txt J_editTxt" maxlength='1000'
+                placeholder="请尽可能详尽描述您的学习经历，例如学习成果、老师讲课风格、课程内容等"></textarea>
+              <p class="text-tip"><span class="txt-count J_txtCount">0</span>/1000</p>
+            </div>
+            <p class="comment-desc">不可少于15字。评论多于100字将有机会获得200积分建立哦~</p>
+            <button type="button" class="submit-btn J_submitBtn disabled" disabled="disabled">提交评论</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="comment-bd">
+    <div class="hd">
+      <button type="button" class="comment-btn J_openBtn">立即评论</button>
+    </div>
+    <div class="score-bd clearfix">
+      <div class="comment-statistics">
+        <span class="statistics-num J_statisticsNum">-</span>
+        <p>好评度</p>
+      </div>
+      <div class="radio-tabs J_radioTabs">
+        <label class="tab-radio cur" data-id="0">
+          <i class="radio-icon"></i>
+          <span class="radio-txt">全部评论(<span class="radio-count">0</span>)</span>
+        </label>
+        <label class="tab-radio" data-id="1">
+          <i class="radio-icon"></i>
+          <span class="radio-txt">好评(<span class="radio-count">0</span>)</span>
+        </label>
+        <label class="tab-radio" data-id="2">
+          <i class="radio-icon"></i>
+          <span class="radio-txt">中评(<span class="radio-count">0</span>)</span>
+        </label>
+        <label class="tab-radio" data-id="3">
+          <i class="radio-icon"></i>
+          <span class="radio-txt">差评(<span class="radio-count">0</span>)</span>
+        </label>
+      </div>
+    </div>
+    <div class="comment-wrap J_commentList"></div>
+    <div class="comment-loading J_loading">
+      <i class="fa fa-spinner spin"></i>
+    </div>
+    <div class="page-btn-wrap">
+      <div class="page-btn-box J_btnBox"></div>
+    </div>
+  </section>
+
+  <script type="text/html" id="J_itemTpl">
+    <div class="item-left">
+      <img src="{{avatar}}" class="user-avatar" width="40" height="40">
+      <p class="user-name">{{nickname}}</p>
+    </div>
+    <div class="item-right">
+      <div class="star-list">
+        <i class="fa fa-star {{isActive}}"></i>
+        <i class="fa fa-star {{isActive}}"></i>
+        <i class="fa fa-star {{isActive}}"></i>
+        <i class="fa fa-star {{isActive}}"></i>
+        <i class="fa fa-star {{isActive}}"></i>
+      </div>
+      <div class="comment-content">{{comment}}</div>
+      <div class="comment-uptime">{{uptime}}</div>
+    </div>
+  </script>
+  <script type="text/html" id="J_addCommentTpl">
+    <div class="add-comment-item">
+      <div class="comment-content">追加评论：<span>{{comment}}</span></div>
+      <div class="comment-uptime">{{uptime}}</div>
+    </div>
+  </script>
+  <script type="text/html" id="J_warningTip">
+    <div class="comment-msg">
+      <i class="fa fa-warning"></i>
+      <p class="msg-txt J_msgTxt">{{text}}</p>
+    </div>
+  </script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/modules/index/comment_modules.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

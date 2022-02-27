@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .page-btn,
+    .cur-page {
+      margin: 0 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="pageBtnCover">
+
+  </div>
+
+  <script type="text/javascript">
+    var oPageBtnCover = document.getElementById('pageBtnCover'),
+      pageNum = 20,
+      curPage = 1;
+
+    setPageBtns(20, 1);
+
+    oPageBtnCover.onclick = function (e) {
+      var e = e || window.event,
+        tar = e.target || e.srcElement,
+        btnType = tar.getAttribute('data-field');
+
+      switch (btnType) {
+        case 'btn':
+          curPage = parseInt(tar.getAttribute('data-page'));
+          setPageBtns(pageNum, curPage);
+          break;
+        case 'prev':
+          curPage -= 1;
+          setPageBtns(pageNum, curPage);
+          break;
+        case 'next':
+          curPage += 1;
+          setPageBtns(pageNum, curPage);
+          break;
+        default:
+          break;
+      }
+    }
+
+    function setPageBtns(pageNum, curPage) {
+      var pageBtnTpl = function (type, num, curPage) {
+        switch (type) {
+          case 'btn':
+            if (curPage == num) {
+              return '<span class="cur-page">' + num + '</span>';
+            } else {
+              return '<a href="javascript:;" class="page-btn" data-field="btn" data-page="' + num + '">' + num + '</a>';
+            }
+            break;
+          case 'prev':
+            if (curPage == 1) {
+              return '<span class="disabled"><i class="fa fa-angle-left"></i></span>';
+            } else {
+              return '<a href="javascript:;" class="prev-btn" data-field="prev"><i class="fa fa-angle-left prev-btn" data-field="prev"></i></a>';
+            }
+            break;
+          case 'next':
+            if (curPage == pageNum) {
+              return '<span class="disabled"><i class="fa fa-angle-right"></i></span>';
+            } else {
+              return '<a href="javascript:;" class="next-btn" data-field="next"><i class="fa fa-angle-right next-btn" data-field="next"></i></a>';
+            }
+            break;
+          case 'points':
+            return '<span>...</span>';
+            break;
+        }
+      };
+
+      var btnGroup = '';
+
+      function makeBtnGroup(start, end, curPage) {
+        for (var i = start; i <= end; i++) {
+          btnGroup += pageBtnTpl('btn', i, curPage);
+        }
+      }
+
+      btnGroup += pageBtnTpl('prev', pageNum, curPage);
+
+      if (pageNum > 7) {
+        if (curPage < 3) {
+          makeBtnGroup(1, 3, curPage);
+          btnGroup += pageBtnTpl('points');
+          makeBtnGroup(pageNum - 1, pageNum, curPage);
+        } else if (curPage < 5) {
+          makeBtnGroup(1, curPage + 1, curPage);
+          btnGroup += pageBtnTpl('points');
+          makeBtnGroup(pageNum - 1, pageNum, curPage);
+        } else if (curPage < pageNum - 3) {
+          makeBtnGroup(1, 2, curPage);
+          btnGroup += pageBtnTpl('points');
+          makeBtnGroup(curPage - 1, curPage + 1, curPage);
+          btnGroup += pageBtnTpl('points');
+          makeBtnGroup(pageNum - 1, pageNum, curPage);
+        } else if (curPage < pageNum) {
+          makeBtnGroup(1, 2, curPage);
+          btnGroup += pageBtnTpl('points');
+          makeBtnGroup(curPage - 1, pageNum, curPage);
+        } else if (curPage == pageNum) {
+          makeBtnGroup(1, 2, curPage);
+          btnGroup += pageBtnTpl('points');
+          makeBtnGroup(curPage - 2, pageNum, curPage);
+        }
+      } else {
+        makeBtnGroup(1, pageNum, curPage);
+      }
+
+      btnGroup += pageBtnTpl('next', pageNum, curPage);
+
+      oPageBtnCover.innerHTML = btnGroup;
+    }
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+.title-cover {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(82, 151, 255);
+}
+
+.main-cover {
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.main-cover .book-item {
+    width: 380px;
+    margin: 10px;
+}
+
+.main-cover .book-item .img-contain {
+    float: left;
+    width: 90px;
+    height: 120px;
+    background-color: aqua;
+}
+
+.main-cover .book-item .img-contain .book-img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-cover .book-item .book-info {
+    float: left;
+    width: 280px;
+    padding-left: 10px;
+}
+
+.main-cover .book-item .book-info .book-title {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+    color: #3c3c3c;
+}
+
+.main-cover .book-item .book-info .book-author {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    margin: 0;
+    font-size: 14px;
+    color: #3c3c3c;
+}
+
+.main-cover .book-item .book-info .book-intro {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    margin: 0;
+    font-size: 12px;
+    color: #999;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.main-cover .book-item .book-info .book-update {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    margin: 0;
+    font-size: 12px;
+    color: #3c3c3c;
+}
+
+.nav {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    margin-left: 80px;
+}
+
+.to-top {
+    display: block;
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.to-top .btn-top {
+    display: inline-block;
+    line-height: 30px;
+}

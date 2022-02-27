@@ -1,0 +1,2 @@
+# dataBindDom
+修改DOM表单数据后，实时更新本地localStorage数据，实时更新关联localStorage的其他DOM元素数据

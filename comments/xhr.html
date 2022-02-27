@@ -1,0 +1,36 @@
+<!-- http://localhost:8080/api_for_study/Comment/getComments -->
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var xhr;
+
+		if (window.XMLHttpRequest) {
+			xhr = new XMLHttpRequest();
+		} else {
+			xhr = new ActiveXObject('Microsoft.XMLHTTP');
+		}
+
+		console.log('xhr.readyState:' + xhr.readyState, 'xhr.status:' + xhr.status, 'xhr.statusText:' + xhr.statusText);
+		xhr.onreadystatechange = function () {
+			console.log('xhr.readyState:' + xhr.readyState, 'xhr.status:' + xhr.status, 'xhr.statusText:' + xhr.statusText);
+			if (xhr.readyState === 4 && xhr.status === 200) {
+				console.log('success');
+			}
+		}
+
+		xhr.open('POST', 'http://localhost:8080/api_for_study/Comment/getComments', true);
+		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		xhr.send('field=1&page=2');
+	</script>
+</body>
+
+</html>
