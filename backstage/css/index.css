@@ -1,0 +1,175 @@
+.list-wrap {
+	width: 1000px;
+	margin: 100px auto;
+}
+
+.list-tb {
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	color: #333;
+}
+
+.list-tb caption {
+	line-height: 60px;
+}
+
+.list-tb tr {
+	height: 44px;
+}
+
+.list-tb td,
+.list-tb th {
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+.list-tb .nav-item {
+	float: left;
+	width: 130px;
+	height: 30px;
+	margin: 0 15px;
+	background-color: #ddd;
+	line-height: 30px;
+}
+
+.list-tb .nav-item .nav-lk {
+	display: block;
+	height: 100%;
+	color: #999;
+}
+
+.list-tb .nav-item.active {
+	background-color: #333;
+}
+
+.list-tb .nav-item.active .nav-lk {
+	color: #fff;
+}
+
+.list-tb .search-row{
+	display: none;
+}
+
+.list-tb .search-row.show{
+	display: table-row;
+}
+
+.list-tb .search-wrap {
+	position: relative;
+	text-align: left;
+}
+
+.list-tb .search-wrap .fa {
+	position: absolute;
+	top: 6px;
+	left: 24px;
+}
+
+.list-tb .search-wrap .search-input {
+	border: 1px solid #ddd;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 15px;
+	padding-left: 30px;
+	font-size: 16px;
+}
+
+.list-tb .field-tt{
+	background-color: #eee;
+}
+
+.list-tb .tip-row{
+	display: table-row;
+}
+
+.list-tb .tip-row .warning-tip{
+	color: #ccc;
+	font-size: 16px;
+}
+
+.list-tb .tip-row.hide{
+	display: none;
+}
+
+.list-tb .course-name-cell{
+	text-align: left;
+	padding-left: 15px;
+}
+
+.list-tb .course-name-cell .course-name{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.list-tb .course-name-cell .course-name-input{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	left: 15px;
+	top: 6px;
+	line-height: 30px;
+	font-size: 16px;
+	text-indent: 10px;
+	border: 1px solid #ddd;
+}
+
+.list-tb .course-name-cell .course-name-input.show{
+	display: inline-block;
+}
+
+.list-tb .list-btn{
+	height: 30px;
+	padding: 0 15px;
+	color: #fff;
+}
+
+.list-tb .list-btn.delete{
+	background-color: red;
+}
+
+.list-tb .list-btn.regain{
+	background-color: orange;
+}
+
+.list-tb .list-btn,
+.list-tb .course-name{
+	cursor: pointer;
+}
+
+.list-tb .page-btn-row{
+	display: none;
+}
+
+.list-tb .page-btn-row.show{
+	display: table-row;
+}
+
+.list-tb .page-btn-list{
+	width: 100%;
+	margin-left: 15px;
+}
+
+.list-tb .btn-item{
+	float: left;
+	width: 60px;
+	height: 100%;
+}
+
+.list-tb .btn-item .page-btn{
+	display: block;
+	width: 22px;
+	height: 22px;
+	background-color: #ddd;
+	text-align: center;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+.list-tb .btn-item.cur .page-btn{
+	background-color: #000;
+	color: #fff;
+}

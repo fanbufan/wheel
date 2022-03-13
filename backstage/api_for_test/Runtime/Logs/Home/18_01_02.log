@@ -1,0 +1,319 @@
+[ 2018-01-02T19:40:49+08:00 ] ::1 /api_for_test/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+ERR: 非法操作:index
+
+[ 2018-01-02T19:40:54+08:00 ] ::1 /api_for_test/Home/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE)
+
+[ 2018-01-02T19:41:15+08:00 ] ::1 /api_for_test/Home/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-01-02T19:41:49+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 ORDER BY watched desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lf_classfield` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lf_lecturer` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-02T19:49:06+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = 'jap' ORDER BY watched desc LIMIT 10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lf_classfield` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `lf_lecturer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-02T19:49:25+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery17205243024465758352_1514893765806&count=10&lan=jap&_=1514893765812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0004s ]
+
+[ 2018-01-02T19:49:32+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery1720768430607885487_1514893772588&count=10&lan=jap&_=1514893772594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0006s ]
+
+[ 2018-01-02T19:49:33+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery172014383002728117789_1514893773509&count=10&lan=jap&_=1514893773514
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0004s ]
+
+[ 2018-01-02T19:49:38+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = 'jap' ORDER BY watched desc LIMIT 10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lf_classfield` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `lf_lecturer` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-02T19:50:27+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery17206015182489707227_1514893827547&count=10&lan=jap&_=1514893827553
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0004s ]
+
+[ 2018-01-02T19:50:36+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery17207468738053935771_1514893836165&count=10&lan=jap&_=1514893836171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0004s ]
+
+[ 2018-01-02T19:50:37+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery17205146557123578033_1514893837757&count=10&lan=jap&_=1514893837763
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0004s ]
+
+[ 2018-01-02T19:50:41+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery1720651587093594663_1514893841669&count=10&lan=jap&_=1514893841675
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0005s ]
+
+[ 2018-01-02T19:51:48+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery172042570309145660645_1514893908720&count=10&lan=jap&_=1514893908725
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0004s ]
+
+[ 2018-01-02T19:52:45+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery17206888947089411506_1514893965846&count=10&lan=jap&_=1514893965853
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0004s ]
+
+[ 2018-01-02T19:52:52+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = 'jap' ORDER BY watched desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lf_classfield` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lf_lecturer` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-02T19:53:34+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = 'jap' ORDER BY watched desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lf_classfield` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `lf_lecturer` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-02T19:53:59+08:00 ] ::1 /api_for_test/Index/getCourses?callback=jQuery172002211745213434191_1514894038967&count=10&lan=jap&_=1514894038973
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = '' ORDER BY watched desc  [ RunTime:0.0004s ]
+
+[ 2018-01-02T19:54:03+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `lf_wkvideocourses` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `lf_wkvideocourses` WHERE `status` = 1 AND `first` = 1 AND `field` = 'jap' ORDER BY watched desc LIMIT 10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lf_classfield` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `lf_lecturer` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_classfield` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lf_lecturer` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+

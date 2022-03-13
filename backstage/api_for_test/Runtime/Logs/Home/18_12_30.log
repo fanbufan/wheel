@@ -1,0 +1,330 @@
+[ 2018-12-30T14:02:40+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0329s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0847s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T15:51:19+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0031s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T15:52:40+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0027s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T15:56:30+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0018s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T15:59:47+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0127s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:03+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0025s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:03+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0013s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:04+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0013s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:04+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0016s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:04+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0025s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:04+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0029s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:04+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0014s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:22+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0014s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:22+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0014s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:22+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0021s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:22+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0020s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:00:47+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0014s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:01:55+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0026s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:03:59+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0018s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:04:37+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0013s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:05:22+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0023s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+
+[ 2018-12-30T16:05:30+08:00 ] ::1 /api_for_test/Index/getCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `js_courses` [ RunTime:0.0014s ]
+NOTIC: [2] Declaration of Home\Model\FieldsModel::getField() should be compatible with Think\Model::getField($field, $sepa = NULL) /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Model/FieldsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `js_fields` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `js_courses` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_fields` ORDER BY id  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant course_data - assumed 'course_data' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Use of undefined constant course_field - assumed 'course_field' /Applications/XAMPP/xamppfiles/htdocs/api_for_test/Home/Controller/IndexController.class.php 第 63 行.
+

@@ -1,0 +1,352 @@
+[ 2018-11-16T12:14:27+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:14:30+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 6,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:14:31+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 12,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:14:32+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 18,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:14:43+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%课程%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%课程%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:14:46+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%课程%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%课程%' AND `status` = 1 ORDER BY id LIMIT 6,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:14:46+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%课程%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%课程%' AND `status` = 1 ORDER BY id LIMIT 12,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:14:48+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%课程%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%课程%' AND `status` = 1 ORDER BY id LIMIT 6,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:14:52+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:14:55+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:14:57+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:14:58+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:15:04+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:16:06+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:16:09+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:16:58+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:17:00+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:17:45+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0007s ]
+
+[ 2018-11-16T12:17:48+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:18:31+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:18:35+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:19:25+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:19:29+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:20:11+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2018-11-16T12:20:15+08:00 ] ::1 /api_for_test/Index/searchCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `course` LIKE '%40%' AND `status` = 1 ORDER BY id LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:33:59+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:54:50+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 6,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T12:54:51+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 12,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:54:52+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 18,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T12:54:54+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 6,6   [ RunTime:0.0001s ]
+
+[ 2018-11-16T13:24:24+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2018-11-16T13:24:26+08:00 ] ::1 /api_for_test/Index/getCourses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `js_course` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `js_course` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `js_course` WHERE `status` = 1 LIMIT 0,6   [ RunTime:0.0001s ]
+

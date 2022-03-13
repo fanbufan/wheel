@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台管理列表</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/icons.min.css" />
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	<div class="list-wrap">
+		<table class="list-tb">
+			<caption><h1>腾讯课堂课程管理系统</h1></caption>
+			<thead>
+				<tr>
+					<td colspan="6">
+						<ul class="nav-list J_nav clearfix">
+							<li class="nav-item active" data-field="manage">
+								<a href="javascript:;" class="nav-lk">列表管理</a>
+							</li>
+							<li class="nav-item" data-field="trash">
+								<a href="javascript:;" class="nav-lk">垃圾箱</a>
+							</li>
+							<li class="nav-item" data-field="search">
+								<a href="javascript:;" class="nav-lk">课程搜索</a>
+							</li>
+						</ul>
+					</td>
+				</tr>
+				<tr class="J_searchRow search-row">
+					<td colspan="6" class="search-cell">
+						<div class="search-wrap">
+							<span class="fa fa-search"></span>
+							<input type="text" id="J_searchInput" class="search-input" placeholder="课程搜索" />
+						</div>
+					</td>
+				</tr>
+				<tr class="field-tt">
+					<th>ID</th>
+					<th>课程名称</th>
+					<th>课时数</th>
+					<th>任课老师</th>
+					<th>课程类型</th>
+					<th>课程操作</th>
+				</tr>
+				<tr class="J_tipRow tip-row">
+					<td colspan="6" class="warning-tip J_warningTip">- 暂无数据 -</td>
+				</tr>
+			</thead>
+			<tbody class="J_courseList"></tbody>
+			<tfoot>
+				<tr class="page-btn-row J_pageBtnRow">
+					<td colspan="6">
+						<ul class="page-btn-list J_pageBtnList clearfix"></ul>
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+
+	<script type="text/html" id="J_listItemTpl">
+		<tr>
+			<td>{{id}}</td>
+			<td class="course-name-cell">
+				<span class="course-name">{{course}}</span>
+				<input type="text" data-id="{{id}}" class="course-name-input" value="{{course}}" />
+			</td>
+			<td>{{hour}}小时</td>
+			<td>{{teacher}}老师</td>
+			<td>{{field}}</td>
+			<td><button data-id="{{id}}" class="list-btn {{type}}">{{typeText}}</button></td>
+		</tr>
+	</script>
+	<script type="text/html" id="J_pageBtnItemTpl">
+		<li class="btn-item {{isCur}}">
+			<a href="javascript:;" class="page-btn">{{pageNum}}</a>
+		</li>
+	</script>
+  
+  <script src="js/utils.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
