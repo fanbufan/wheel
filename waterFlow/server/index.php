@@ -133,7 +133,7 @@ $pageNum = $_POST['pageNum'];
 $pageData = null;
 
 if($pageNum > 2){
-	echo 'NO DATA';
+	echo json_encode('NO DATA');
 	return;
 }
 
