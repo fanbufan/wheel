@@ -23,7 +23,6 @@
 			if (this.pageNum < this.pageSize - 1 && getScrollTop() + getWindowHeight() >= getScrollHeight()) {
 				this.pageNum++;
 
-				console.log(this.pageNum, this.pageSize);
 				this.getImgDatas(this.pageNum);
 			}
 		},
@@ -76,6 +75,7 @@
 
 				oItem.appendChild(oImg);
 				oFrag.appendChild(oItem);
+				oImg.style.opacity = 1;
 			}, this);
 
 			this.wrap.appendChild(oFrag);
